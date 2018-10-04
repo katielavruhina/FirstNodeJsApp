@@ -1,7 +1,7 @@
 // BASE SETUP
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://ste:ste@ds161939.mlab.com:61939/myfirstmongodb', {}, ()=>{
+mongoose.connect('mongodb://', {}, ()=>{
     console.log("DB connected")
 }); // connect to our database
 
